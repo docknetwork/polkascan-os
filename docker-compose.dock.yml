@@ -113,8 +113,8 @@ services:
     build:
       context: explorer-gui/.
       args:
-        NETWORK_NAME: Substrate Node Template
-        NETWORK_ID: node-template
+        NETWORK_NAME: Dock POA
+        NETWORK_ID: dock
         NETWORK_TYPE: pre
         CHAIN_TYPE: para
         NETWORK_TOKEN_SYMBOL: DEV
