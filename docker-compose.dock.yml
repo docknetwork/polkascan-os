@@ -19,7 +19,7 @@ services:
       - SUBSTRATE_RPC_URL=http://dockerhost:9933/
       - SUBSTRATE_ADDRESS_TYPE=42
       - TYPE_REGISTRY_FILE=app/type_registry/dock_types.json
-      - SUBSTRATE_METADATA_VERSION=9
+      - SUBSTRATE_METADATA_VERSION=11
     depends_on:
       - mysql
     extra_hosts:
@@ -47,7 +47,7 @@ services:
       - SUBSTRATE_RPC_URL=http://dockerhost:9933/
       - TYPE_REGISTRY_FILE=app/type_registry/dock_types.json
       - SUBSTRATE_ADDRESS_TYPE=42
-      - SUBSTRATE_METADATA_VERSION=9
+      - SUBSTRATE_METADATA_VERSION=11
       - NEW_SESSION_EVENT_HANDLER=True
       - SUBSTRATE_STORAGE_BALANCE=Account
       - SUBSTRATE_STORAGE_INDICES=Accounts
